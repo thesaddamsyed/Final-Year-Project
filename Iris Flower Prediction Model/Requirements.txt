@@ -1,9 +1,0 @@
-jupyter notebook
-numpy
-pandas
-streamlit
-pickle
-warnings
-seaborn
-matplotlib
-sklearn
