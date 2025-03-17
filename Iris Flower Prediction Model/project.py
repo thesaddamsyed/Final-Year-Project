@@ -4,7 +4,8 @@ import pickle
 image1 = 'Iris Flowers//Irissetosa1.jpg'
 image2 = "Iris Flowers//Iris_versicolor__flo_npyvSQOSVQ8O.jpeg"
 image3 = "Iris Flowers//iris_virginica_virginica_lg.jpg" 
-model = pickle.load(open("Data.pkl", "rb"))
+model = pickle.load(open("Model/Data.pkl", "rb"))
+
 
 def predict():
     st.title("Predicting the Iris Flower Species")
